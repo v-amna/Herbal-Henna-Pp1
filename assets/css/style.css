@@ -33,6 +33,38 @@ h2{
     background-color: #4B2E05;
     color: #FFF8E7;
 }
+#nav-bar{
+     background-color: #4B2E05;
+    color: #FFF8E7;
+}
+/* Make all cards equal height */
+.card {
+    height: 420px; /* Adjust height as you like */
+    border: 2px solid #d4af37; /* Simple golden border */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Make all card images equal size */
+.card img {
+    width: 100%;
+    height: 250px;   /* Fix image height */
+    object-fit: cover; /* Crop nicely without stretching */
+}
+
+/* Card body area alignment */
+.card-body {
+    height: calc(100% - 250px); /* Remaining height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card:hover {
+    box-shadow: 0 0 12px rgba(212, 175, 55, 0.7);
+    transform: translateY(-4px);
+    transition: 0.3s;
+}
+
 /*grid visualization css for testing
 .container,.row{
     border: 2px solid black;
