@@ -1,0 +1,43 @@
+
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/*css variable*/
+:root{
+    --primary-font:"Playfair",Nunito Sans;
+    --secondary-font:"Macondo",cursive;
+    --primary-color:#4B2E05;
+    --secondary-color:#FFF8E7/*light brown*/;
+    --highlight-color:#B85C38;/*Dark blue*/
+    --highlight-color-light:#D4AF37;/*light blue*/
+}
+body{
+    font-family: var(--primary-font);
+}
+/*Heading style*/
+h1,
+h2,
+h3{
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    
+}
+h1,h2{
+    
+    text-transform: uppercase;
+}
+h2{
+    margin-bottom: 2rem;
+}
+#contact{
+    background-color: #4B2E05;
+    color: #FFF8E7;
+}
+/*grid visualization css for testing
+.container,.row{
+    border: 2px solid black;
+}
+.col-12{
+    border: 2px solid white;
+    background-color: lightgrey;
+}*/
