@@ -9,7 +9,7 @@
     --primary-color:#4B2E05;
     --secondary-color:#FFF8E7/*light brown*/;
     --highlight-color:#B85C38;/*Dark blue*/
-    --highlight-color-light:#D4AF37;/*light blue*/
+    --highlight-color-light:#D4AF37;/*light golden*/
 }
 body{
     font-family: var(--primary-font);
@@ -51,6 +51,9 @@ h2{
     height: 250px;   /* Fix image height */
     object-fit: cover; /* Crop nicely without stretching */
 }
+#contact-form .form-control,.form-select{
+    border: 1px solid var(--highlight-color-light);
+}
 
 /* Card body area alignment */
 .card-body {
@@ -64,7 +67,14 @@ h2{
     transform: translateY(-4px);
     transition: 0.3s;
 }
-
+/*button */
+.btn{
+border:  2px solid var(--highlight-color-light);
+}
+#contact-id .btn{
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
 /*grid visualization css for testing
 .container,.row{
     border: 2px solid black;
