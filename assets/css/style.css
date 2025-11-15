@@ -6,7 +6,7 @@
 :root{
     --primary-font:"Playfair",Nunito Sans;
     --secondary-font:"Macondo",cursive;
-    --primary-color:#4B2E05;
+    --primary-color:#633e0a;
     --secondary-color:#FFF8E7/*light brown*/;
     --highlight-color:#B85C38;/*Dark blue*/
     --highlight-color-light:#D4AF37;/*light golden*/
@@ -14,6 +14,27 @@
 body{
     font-family: var(--primary-font);
 }
+/*stick header*/
+/* style.css */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color:var(--highlight-color);
+  color: white;
+  padding: 15px;
+  text-align: center;
+  z-index: 1000;
+}
+
+main {
+  margin-top: 70px; /* height of your header */
+  padding: 20px;
+}
+
+
+
 /*Heading style*/
 h1,
 h2,
@@ -29,10 +50,34 @@ h1,h2{
 h2{
     margin-bottom: 2rem;
 }
+/* Header background color */
+#nav-bar {
+    background-color: #633e0a !important;
+    border-bottom: none; /* optional: remove default border */
+}
+
+/* Navigation link colors */
+#nav-bar .nav-link {
+    color: #d4af37 !important; /* golden color */
+}
+
+/* Active link (current page) */
+#nav-bar .nav-link.active {
+    color: #fff !important; /* white or keep golden */
+    background-color: transparent !important; /* removes default blue */
+    border-bottom: 2px solid #d4af37; /* optional highlight */
+}
+
+/* On hover */
+#nav-bar .nav-link:hover {
+    color: #ffe4a1 !important; /* lighter golden hover */
+}
+
 #contact{
     background-color: #4B2E05;
     color: #FFF8E7;
 }
+
 #nav-bar{
      background-color: #4B2E05;
     color: #FFF8E7;
