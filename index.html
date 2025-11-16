@@ -22,34 +22,47 @@
       crossorigin="anonymous"
     ></script>
     <!--custom css-->
-    <link rel="stylesheet" href="assets/css/style.css"> 
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <!--classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of page-->
   <body class="d-flex flex-column min-vh-100">
     <!--Navigation-->
-    
-      <header id="nav-bar"
-        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
-      >
-        <a
-          href="assets/images/fav-icon1.png"
-          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
-        >
-         
-          <span class="fs-4">Simple header</span>
-        </a>
 
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a href="index.html" class="nav-link " aria-current="page">Home</a>
-          </li>
-          <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-          
-          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-        </ul>
-      </header>
-    </div>
+    <header>
+      <nav id="nav-bar" class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <span class="fs-4">Simple Header</span>
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
     <!-- End Navigation-->
 
     <main>
@@ -60,24 +73,24 @@
               src="./assets/images/cover_02.jpg"
               class="d-block mx-lg-auto img-fluid"
               alt="henna designs"
-             
             />
           </div>
           <div class="col-lg-6">
-            <h1 class="display-5 fw-bold lh-1 mb-3">
-             OUR MANTRA
-            </h1>
+            <h1 class="display-5 fw-bold lh-1 mb-3">OUR MANTRA</h1>
             <p class="lead">
-              Henna goes far beyond its ability to create temporary and striking designs on the skin; it is an artistic tool that unites cultures, inviting people to embrace connection and cherish their differences. It’s used to celebrate love, beauty and grace through special occasions, personal and cultural milestones, or to simply relish its artistic elegance. Henna’s ability to empower people through its trade and craft is admirable to say the least and we aspire to cultivate a brand which magnifies this notion of community and togetherness through artistic expression.
+              Henna goes far beyond its ability to create temporary and striking
+              designs on the skin; it is an artistic tool that unites cultures,
+              inviting people to embrace connection and cherish their
+              differences. It’s used to celebrate love, beauty and grace through
+              special occasions, personal and cultural milestones, or to simply
+              relish its artistic elegance. Henna’s ability to empower people
+              through its trade and craft is admirable to say the least and we
+              aspire to cultivate a brand which magnifies this notion of
+              community and togetherness through artistic expression.
             </p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              
-                <a href="contact.html" class="btn  ms-lg-3"
-                  >Book Now</a
-                >
-              
+              <a href="contact.html" class="btn ms-lg-3">Book Now</a>
             </div>
-           
           </div>
         </div>
       </div>
@@ -86,26 +99,23 @@
         <h2 class="pb-2 border-bottom">Highlights</h2>
 
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-           <div class="col">
+          <div class="col">
             <div
-              class="card card-cover h-100 overflow-hidden text-white bg-dark  shadow-lg" >
-              <img src="assets/images/hanna-tattoo-designs-2.jpg" alt="">
+              class="card card-cover h-100 overflow-hidden text-white shadow-lg card-custom-bg"
+            >
+              <img
+                src="assets/images/hanna-tattoo-designs-2.jpg"
+                alt="Henna design 1"
+              />
               <div
                 class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
               >
-                
                 <ul class="d-flex list-unstyled mt-auto">
-                  <li class="me-auto">
-                    
-                  </li>
+                  <li class="me-auto"></li>
                   <li class="d-flex align-items-center me-3">
-                    
                     <small>views</small>
                   </li>
-                  <li class="d-flex align-items-center">
-                   
-                    <small>2.2M</small>
-                  </li>
+                  <li class="d-flex align-items-center"><small>2.2M</small></li>
                 </ul>
               </div>
             </div>
@@ -113,122 +123,87 @@
 
           <div class="col">
             <div
-              class="card card-cover h-100 overflow-hidden text-white bg-dark  shadow-lg" >
-              <img src="assets/images/hanna-tattoo-designs-1.jpg" alt="">
+              class="card card-cover h-100 overflow-hidden text-white shadow-lg card-custom-bg"
+            >
+              <img
+                src="assets/images/hanna-tattoo-designs-1.jpg"
+                alt="Henna design 2"
+              />
               <div
                 class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
               >
-                
                 <ul class="d-flex list-unstyled mt-auto">
-                  <li class="me-auto">
-                    
-                  </li>
+                  <li class="me-auto"></li>
                   <li class="d-flex align-items-center me-3">
-                    
                     <small>views</small>
                   </li>
                   <li class="d-flex align-items-center">
-                    
-                    <small>1.m</small>
-                  </li>
+                    <small>1M</small></li>
                 </ul>
               </div>
             </div>
           </div>
 
-         <div class="col">
+          <div class="col">
             <div
-              class="card card-cover h-100 overflow-hidden text-white bg-dark  shadow-lg" >
-              <img src="assets/images/hanna-tattoo-designs-3.jpg" alt="">
+              class="card card-cover h-100 overflow-hidden text-white shadow-lg card-custom-bg"
+            >
+              <img
+                src="assets/images/hanna-tattoo-designs-3.jpg"
+                alt="Henna design 3"
+              />
               <div
-                class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+                class="d-flex flex-column h-100 p-5 pb-1 text-white text-shadow-1"
               >
-                
                 <ul class="d-flex list-unstyled mt-auto">
-                  <li class="me-auto">
-                    
-                  </li>
+                  <li class="me-auto"></li>
                   <li class="d-flex align-items-center me-3">
-                    
                     <small>views</small>
                   </li>
                   <li class="d-flex align-items-center">
-                    
-                    <small>1.6M</small>
-                  </li>
+                    <small>1.6M</small></li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
-     
-      
+      </div>
     </main>
 
     <!--footer or contact section-->
     <!--mt-auto to push footer to bottom of the page-->
     <footer id="contact" class="mt-auto">
-      <div class="container px-4 py-5" id="icon-grid">
+      <div class="container px-4 py-5 text-center" id="icon-grid">
         <div
-          class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5"
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center text-center g-4"
         >
-          <div class="col d-flex align-items-start">
-            <svg
-              class="bi text-muted flex-shrink-0 me-3"
-              width="1.75em"
-              height="1.75em"
-            >
-              <use xlink:href="#bootstrap"></use>
-            </svg>
+          <div class="col d-flex align-items-center">
             <div>
-              <h4 class="fw-bold mb-0">Featured title</h4>
+              <h4 class="fw-bold mb-0">Herbal Henna Studio</h4>
+              
               <p>
-                Paragraph of text beneath the heading to explain the heading.
+               
+Bringing tradition and creativity together through stunning henna designs. We craft every pattern with care, passion, and cultural artistry.
               </p>
             </div>
           </div>
-          <div class="col d-flex align-items-start">
-            <svg
-              class="bi text-muted flex-shrink-0 me-3"
-              width="1.75em"
-              height="1.75em"
-            >
-              <use xlink:href="#cpu-fill"></use>
-            </svg>
-            <div>
-              <h4 class="fw-bold mb-0">Featured title</h4>
+          <div class="col d-flex align-items-center">
+            <div >
+              <h4 class="fw-bold mb-0">Services</h4>
               <p>
-                Paragraph of text beneath the heading to explain the heading.
+               Bridal mehndi, Arabic patterns, modern designs, tattoo-style art,
+            and custom henna for all occasions.
               </p>
             </div>
           </div>
-          <div class="col d-flex align-items-start">
-            <svg
-              class="bi text-muted flex-shrink-0 me-3"
-              width="1.75em"
-              height="1.75em"
-            >
-              <use xlink:href="#calendar3"></use>
-            </svg>
+          
+          <div class="col d-flex align-items-center">
             <div>
-              <h4 class="fw-bold mb-0">Featured title</h4>
+              <h4 class="fw-bold mb-0">Contact</h4>
               <p>
-                Paragraph of text beneath the heading to explain the heading.
-              </p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg
-              class="bi text-muted flex-shrink-0 me-3"
-              width="1.75em"
-              height="1.75em"
-            >
-              <use xlink:href="#home"></use>
-            </svg>
-            <div>
-              <h4 class="fw-bold mb-0">Featured title</h4>
-              <p>
-                Paragraph of text beneath the heading to explain the heading.
+              <a href="https://www.instagram.com/" target="_parent"><i class="fa-brands fa-instagram"></i>Instagaram</a>
+              <a href="https://www.youtube.com/" target="_parent"><i class="fa-brands fa-square-youtube"></i>Youtube</a>
+              <p><i class="fa-solid fa-phone"></i>123406570</p>
               </p>
             </div>
           </div>

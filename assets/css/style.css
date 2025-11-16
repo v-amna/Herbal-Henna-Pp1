@@ -21,7 +21,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color:var(--highlight-color);
+  background-color:var(--primary-color);
   color: white;
   padding: 15px;
   text-align: center;
@@ -58,34 +58,34 @@ h2{
 
 /* Navigation link colors */
 #nav-bar .nav-link {
-    color: #d4af37 !important; /* golden color */
+    color: var(--secondary-color) !important; /* golden color */
 }
 
 /* Active link (current page) */
 #nav-bar .nav-link.active {
-    color: #fff !important; /* white or keep golden */
-    background-color: transparent !important; /* removes default blue */
-    border-bottom: 2px solid #d4af37; /* optional highlight */
+    color: var(--secondary-color) !important; 
+    background-color: transparent !important; 
+    border-bottom: 2px solid #d4af37; 
 }
 
 /* On hover */
 #nav-bar .nav-link:hover {
-    color: #ffe4a1 !important; /* lighter golden hover */
+    color: #ffe4a1 !important; 
 }
 
 #contact{
-    background-color: #4B2E05;
-    color: #FFF8E7;
+    background-color:var(--primary-color);
+    color: var(--secondary-color);
 }
 
 #nav-bar{
-     background-color: #4B2E05;
-    color: #FFF8E7;
+     background-color:var(--primary-color);
+    color: var(--secondary-color);
 }
 /* Make all cards equal height */
 .card {
     height: 420px; /* Adjust height as you like */
-    border: 2px solid #d4af37; /* Simple golden border */
+    border: 2px solid var(--highlight-color-light); /* Simple golden border */
     border-radius: 8px;
     overflow: hidden;
 }
@@ -99,6 +99,20 @@ h2{
 #contact-form .form-control,.form-select{
     border: 1px solid var(--highlight-color-light);
 }
+
+/* Make images responsive */
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+/* Fix album card images */
+.album .card img {
+  width: 100%;
+  height: 280px;     
+  object-fit: cover; 
+}
+
 
 /* Card body area alignment */
 .card-body {
@@ -114,12 +128,41 @@ h2{
 }
 /*button */
 .btn{
-border:  2px solid var(--highlight-color-light);
+  border:  2px solid var(--highlight-color-light);
+}
+.btn:hover
+{
+   background-color: var(--highlight-color-light);
 }
 #contact-id .btn{
     margin-bottom: 2rem;
     margin-left: 2rem;
 }
+
+.card-custom-bg{
+    background-color: var(--highlight-color)!important;
+}
+/*footer*/
+/* Footer link styling */
+#contact a{
+  color: var(--secondary-color); /* Ivory */
+  text-decoration: none;
+  display: block;       /* So each link appears on a new line */
+  margin-bottom: 6px;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+#contact a:hover{
+  color: var(--highlight-color-light); /* Gold */
+}
+
+#contact i {
+  margin-right: 6px;
+}
+/* .border-bottom{
+    
+} */
 /*grid visualization css for testing
 .container,.row{
     border: 2px solid black;
