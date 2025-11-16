@@ -32,7 +32,12 @@ main {
   margin-top: 70px; /* height of your header */
   padding: 20px;
 }
-
+/*logo style*/
+.logo{
+    font-family: var(--secondary-font);
+    color: var(--highlight-color-light);
+    
+}
 
 
 /*Heading style*/
