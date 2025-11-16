@@ -21,11 +21,15 @@
       src="https://kit.fontawesome.com/1c0801b36d.js"
       crossorigin="anonymous"
     ></script>
+
     <!--custom css-->
     <link rel="stylesheet" href="assets/css/style.css">
+
   </head>
+
   <!--classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of page-->
   <body id="contact-body" class="d-flex flex-column min-vh-100">
+    
     <!--Navigation-->
       <header>
         <nav id="nav-bar" class="navbar navbar-expand-lg bg-light">
@@ -49,15 +53,13 @@
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
         </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li> -->
+       
       </ul>
     </div>
   </div>
-</nav>
-
-    </header>
+ </nav>
+ </header>
+ <!-- Main Section -->
     <main>
       <section class="py-5 text-center container">
         <div class="row py-lg-5">
@@ -73,9 +75,11 @@
                     
         </div>
       </section>
+      <!-- Form Section -->
+
       <div class="container">
         <div class="row g-5">
-<form id="contact-form" class="row g-3">
+<form id="contact-form" class="row g-3" aria-label="Henna Booking Form">
             <div class="col-md-6">
               <label for="firstname" class="form-label">Full Name</label>
               <input type="text" class="form-control" id="firstname" required />
@@ -125,10 +129,12 @@
             
             <div id="contact-id" class="col-12">
               <button   type="submit" class="btn ">Book Now</button>
+              
             </div>
           </form>
         </div>
-      <!-- </div> -->
+      </div>
+     
     </main>
 
     <!--footer or contact section-->
