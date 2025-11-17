@@ -17,6 +17,7 @@
 
 body{
     font-family: var(--primary-font);
+    font-display: swap;
 }
 
 /*stick header*/
@@ -176,3 +177,22 @@ h2{
   margin-right: 6px;
 }
 
+/* Took fron iconify: https://icon-sets.iconify.design/?query=youtube */
+.icon{
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.mdi--phone {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23FFF8E7' d='M6.62 10.79c1.44 2.83 3.76 5.15 6.59 6.59l2.2-2.2c.28-.28.67-.36 1.02-.25c1.12.37 2.32.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57c.11.35.03.74-.25 1.02z'/%3E%3C/svg%3E");
+}
+
+.hugeicons--instagram {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='none' stroke='%23FFF8E7' stroke-width='1'%3E%3Cpath stroke-linejoin='round' stroke-width='1.5' d='M2.5 12c0-4.478 0-6.718 1.391-8.109S7.521 2.5 12 2.5c4.478 0 6.718 0 8.109 1.391S21.5 7.521 21.5 12c0 4.478 0 6.718-1.391 8.109S16.479 21.5 12 21.5c-4.478 0-6.718 0-8.109-1.391S2.5 16.479 2.5 12Z'/%3E%3Cpath stroke-width='1.5' d='M16.5 12a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0Z'/%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M17.508 6.5h-.01'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.line-md--youtube {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23FFF8E7' fill-opacity='0' d='M12 11L12 12L12 13z'%3E%3Canimate fill='freeze' attributeName='d' begin='0.6s' dur='0.2s' values='M12 11L12 12L12 13z;M10 8.5L16 12L10 15.5z'/%3E%3Cset fill='freeze' attributeName='fill-opacity' begin='0.6s' to='1'/%3E%3C/path%3E%3Cpath fill='none' stroke='%23FFF8E7' stroke-dasharray='64' stroke-dashoffset='64' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M12 5c9 0 9 0 9 7c0 7 0 7 -9 7c-9 0 -9 0 -9 -7c0 -7 0 -7 9 -7Z'%3E%3Canimate fill='freeze' attributeName='stroke-dashoffset' dur='0.6s' values='64;0'/%3E%3C/path%3E%3C/svg%3E");
+}
