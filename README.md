@@ -3,35 +3,35 @@ Herbal Henna is a website designed to showcase natural henna artistry and provid
 
 ## 📱 Responsive Design Preview
 
-[def]: assets/screenshots/responsive-design.png
+![Preview](assets/screenshots/responsive-design.png)
 
 ## Features
 
-### # 1. Fully Responsive Design
+### 1. Fully Responsive Design
 
 The website is designed to adapt seamlessly across all screen sizes — desktop, tablet, and mobile — ensuring a smooth user experience on any device.
 
-### # 2. Modern & Elegant UI
+### 2. Modern & Elegant UI
 
 A calm, earthy color palette combined with clean typography creates a visually appealing atmosphere that matches the natural theme of henna art.
 
-### # 3. Portfolio Gallery
+### 3. Portfolio Gallery
 
 A dedicated portfolio page showcases different henna design styles (modern, traditional, and artistic) with high-quality images organized in responsive grid layouts.
 
-### # 4. Contact & Booking Section
+### 4. Contact & Booking Section
 
 A simple and user-friendly contact form allows visitors to easily reach out or book an appointment.
 
-### # 5. Sticky Navigation Bar
+### 5. Sticky Navigation Bar
 
 A fixed header ensures users can always access navigation links without scrolling back up.
 
-### # 6. Accessibility-Friendly Structure
+### 6. Accessibility-Friendly Structure
 
 Semantic HTML elements, descriptive alt text, and ARIA labels improve usability for assistive technologies.
 
-### # 7. Lightweight & Fast
+### 7. Lightweight & Fast
 
 Built using HTML, CSS, and Bootstrap — keeping load times fast and performance smooth without unnecessary libraries.
 
@@ -41,36 +41,36 @@ Built using HTML, CSS, and Bootstrap — keeping load times fast and performance
 
 The Home Page of the Herbal Henna website serves as the welcoming entry point for users. It introduces the brand, highlights the beauty and cultural significance of henna art, and guides visitors to explore the portfolio or make a booking. The page features a clean layout, responsive navigation, and visually appealing imagery that reflects the creativity and elegance of henna designs.
 
-[def]: assets/screenshots/index-page.png
+![Home Page](assets/screenshots/index-page.png)
 
 ### Highlight Section
 
 The Highlight Section showcases key aspects of Herbal Henna’s services and designs. It emphasizes the brand’s expertise, use of 100% natural henna, and the variety of modern and traditional designs available.
 
-[def]: assets/screenshots/index-hilight.png
+![Highligh](assets/screenshots/index-hilight.png)
 
 ## Portfolio Page
 
 The Portfolio Page displays a curated collection of Herbal Henna’s designs, including both modern and traditional styles. Each design is presented with images and brief descriptions, allowing visitors to explore the artistry and intricacy of the henna work. This page helps potential clients see the quality and variety of designs before booking a session.
 
-[def]: assets/screenshots/portfolio-showcase.png
-[def]: assets/screenshots/design-showcase.png
+![Portfolio showcase](assets/screenshots/portfolio-showcase.png)
+![Design showcase](assets/screenshots/design-showcase.png)
 
 ## Footer
 
 The Footer Section provides essential contact information and quick links to Herbal Henna’s social media profiles. It also highlights services offered and includes a brief brand description, ensuring visitors can easily connect and learn more about the studio.
-[def]: assets/screenshots/footer.png
+![footer](assets/screenshots/footer.png)
 
 ## Contact Page
 The Contact Page allows visitors to easily reach out to Herbal Henna Studio. It includes a contact form, phone number, and links to social media profiles, making it simple for users to book appointments or ask questions.
 
-[def]: assets/screenshots/contact-form.png
+![Contact](assets/screenshots/contact-form.png)
 
 ## Features Left to Implement
 
 In future updates, the Herbal Henna project will include an additional page to offer homemade henna products for customers. The highlight section will also be enhanced to display key metrics, such as the number of visitors who have viewed the henna designs, providing better engagement insights.
 
-**## Testing**
+## Testing
 
 The Herbal Henna website has been tested across multiple browsers, including Google Chrome, Mozilla Firefox, to ensure consistent appearance and functionality. The site is fully responsive, adapting smoothly to different screen sizes, from desktop monitors to tablets and mobile devices.
 
@@ -87,11 +87,11 @@ These issues have been noted for future improvement to ensure a fully seamless u
 ## Validator Testing
 
 **HTML**
-[def]: assets/screenshots/html-validation.png
+![html validation result](assets/screenshots/html-validation.png)
 No errors and warnings found.
 
 **CSS**
-[def]: assets/screenshots/css-validation.png
+![Css validation result](assets/screenshots/css-validation.png)
 No errors and warnings found.
 
 
@@ -110,22 +110,22 @@ The live link can be found here - https://v-amna.github.io/Herbal-Henna-Pp1/
 
 ## Credits
 
-**Content**
+### Content
 
 The project incorporates a combination of external resources and frameworks to enhance design consistency and user experience:
 
-**Google Fonts**
+### Google Fonts
 Used to apply custom typography throughout the website, ensuring a clean and modern visual style.
 **
 Iconify Icons**
 Icons were sourced from Iconify (https://icon-sets.iconify.design
 ) to provide lightweight, scalable, and visually appealing icons across the site.
 
-**Bootstrap 5.3 Framewor**k
+### Bootstrap 5.3 Framework
 Bootstrap was used for layout structure, responsive grid design, and UI components such as the navigation bar, cards, and form elements. This ensured the website remains responsive across various screen sizes.
 
 
-**Media**
+### Media
 
 The media content and supporting resources used throughout the project were gathered from the following sources:
 
