@@ -62,10 +62,7 @@ h2{
 }
 /* Header background color */
 #nav-bar {
-    /* background-color: #633e0a !important; */
-    
-  background-color: var(--primary-color) !important;
-
+    background-color: #633e0a !important;
     border-bottom: none; 
 }
 
@@ -178,70 +175,4 @@ h2{
 #contact i {
   margin-right: 6px;
 }
-/* media query */
-
-/* Tablet & below */
-@media screen and (max-width: 992px) {
-
-  .logo {
-    font-size: 1.6rem;
-  }
-
-  header {
-    padding: 10px;
-  }
-
-  main {
-    margin-top: 80px;
-  }
-}
-
-/* Mobile Large & below */
-@media screen and (max-width: 768px) {
-
-  .logo {
-    font-size: 1.4rem;
-  }
-
-  h1 {
-    font-size: 1.8rem;
-  }
-
-  h2 {
-    font-size: 1.6rem;
-  }
-
-  .card {
-    height: auto;
-  }
-
-  .card img {
-    height: 200px;
-  }
-}
-
-/* Mobile Small */
-@media screen and (max-width: 576px) {
-
-  html, body {
-    overflow-x: hidden;
-  }
-
-  header {
-    padding: 8px;
-  }
-
-  .logo {
-    font-size: 1.2rem;
-  }
-
-  .container.col-xxl-8 {
-    padding: 1rem;
-  }
-
-  .card img {
-    height: 180px;
-  }
-}
-
 
