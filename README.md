@@ -35,9 +35,9 @@ Semantic HTML elements, descriptive alt text, and ARIA labels improve usability 
 
 Built using HTML, CSS, and Bootstrap — keeping load times fast and performance smooth without unnecessary libraries.
 
- ## HERBAL HENNA
+## HERBAL HENNA
 
-**Home Page** (index.html)
+### Home Page (index.html)
 
 The Home Page of the Herbal Henna website serves as the welcoming entry point for users. It introduces the brand, highlights the beauty and cultural significance of henna art, and guides visitors to explore the portfolio or make a booking. The page features a clean layout, responsive navigation, and visually appealing imagery that reflects the creativity and elegance of henna designs.
 
@@ -94,8 +94,6 @@ No errors and warnings found.
 ![Css validation result](assets/screenshots/css-validation.png)
 No errors and warnings found.
 
-
-
 ### Known Issues / Unfixed Bugs
 
 During testing for responsiveness using ami.responsivedesign.is, all screen sizes display correctly. However, a horizontal scrollbar appears on every page, stretching from the header to the footer. The cause of this issue is currently unclear—it may be related to certain elements exceeding the viewport width or default padding/margin in the CSS. This bug has not yet been resolved.
@@ -116,14 +114,11 @@ The project incorporates a combination of external resources and frameworks to e
 
 ### Google Fonts
 Used to apply custom typography throughout the website, ensuring a clean and modern visual style.
-**
-Iconify Icons**
-Icons were sourced from Iconify (https://icon-sets.iconify.design
-) to provide lightweight, scalable, and visually appealing icons across the site.
+### Icons
+Icons were sourced from [Iconify](https://icon-sets.iconify.design) to provide lightweight, scalable, and visually appealing icons across the site.
 
 ### Bootstrap 5.3 Framework
 Bootstrap was used for layout structure, responsive grid design, and UI components such as the navigation bar, cards, and form elements. This ensured the website remains responsive across various screen sizes.
-
 
 ### Media
 
