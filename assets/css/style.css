@@ -1,15 +1,16 @@
 
 /*google font*/
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 /*css variable*/
 :root{
-    --primary-font:"Playfair",Nunito Sans;
-    --secondary-font:"Macondo",cursive;
+    --primary-font:"Nunito Sans";
+    --secondary-font: "Mrs Saint Delafield", cursive;
     --primary-color:#633e0a;
-    --secondary-color:#FFF8E7/*light brown*/;
-    --highlight-color:#B85C38;/*Dark blue*/
+    --secondary-color:#FFF8E7;
+    --highlight-color:#B85C38;
     --highlight-color-light:#D4AF37;/*light golden*/
 }
 /*global style*/
