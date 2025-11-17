@@ -14,10 +14,23 @@
     --highlight-color-light:#D4AF37;/*light golden*/
 }
 /*global style*/
+html,body{
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include padding/border in width calculations */
+    overflow-x: hidden;     /* Prevent horizontal scroll */
+}
 
 body{
     font-family: var(--primary-font);
 }
+
+/* This ensures padding and borders don’t make elements wider than the viewport. */
+* {
+  box-sizing: border-box;
+}
+
+
 
 /*stick header*/
 
@@ -95,12 +108,18 @@ h2{
      background-color:var(--primary-color);
     color: var(--secondary-color);
 }
+/* responsieve container
+.container {
+  max-width: 100%;
+} */
+ 
 /* Make all cards equal height */
 .card {
     height: 420px; 
     border: 2px solid var(--highlight-color-light); /* Simple golden border */
     border-radius: 8px;
     overflow: hidden;
+    max-width: 100%;
 }
 
 /* Make all card images equal size */
@@ -230,6 +249,10 @@ h2{
   header {
     padding: 8px;
   }
+  /* .navbar-toggler:hover
+  {
+    color: var(--highlight-color-light);
+  } */
 
   .logo {
     font-size: 1.2rem;
