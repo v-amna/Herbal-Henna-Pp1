@@ -112,7 +112,7 @@ h2{
 .container {
   max-width: 100%;
 } */
- 
+
 /* Make all cards equal height */
 .card {
     height: 420px; 
@@ -198,8 +198,8 @@ h2{
   margin-right: 6px;
 }
 /* media query */
-
-/* Tablet & below */
+/* 
+Tablet & below
 @media screen and (max-width: 992px) {
 
   .logo {
@@ -215,7 +215,7 @@ h2{
   }
 }
 
-/* Mobile Large & below */
+/* Mobile Large & below 
 @media screen and (max-width: 768px) {
 
   .logo {
@@ -237,34 +237,28 @@ h2{
   .card img {
     height: 200px;
   }
-}
+} */
 
 /* Mobile Small */
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
+    header, nav, main, footer {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
-  html, body {
-    overflow-x: hidden;
-  }
+    .navbar-nav {
+        flex-direction: column; /* Stack links vertically */
+        gap: 0.5rem;
+    }
 
-  header {
-    padding: 8px;
-  }
-  /* .navbar-toggler:hover
-  {
-    color: var(--highlight-color-light);
-  } */
+    .card {
+        width: 100%; /* Make cards fit the screen */
+        height: auto; /* Adjust height if needed */
+    }
 
-  .logo {
-    font-size: 1.2rem;
-  }
-
-  .container.col-xxl-8 {
-    padding: 1rem;
-  }
-
-  .card img {
-    height: 180px;
-  }
+    img {
+        max-width: 100%; /* Ensure images don’t overflow */
+        height: auto;
+    }
 }
-
 
